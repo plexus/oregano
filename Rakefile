@@ -66,3 +66,12 @@ task :default do
     end
   end
 end
+
+Gem::PackageTask.new(Gem::Specification.load("oregano.gemspec")).define
+
+desc "Push gem to rubygems.org"
+task :push => "gem" do
+  sh "git tag v#{Oregano::VERSION}"
+  sh "git push --tags"
+  sh "gem push pkg/oregano-#{Oregano::VERSION}.gem"
+end
