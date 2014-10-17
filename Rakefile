@@ -1,7 +1,8 @@
 $:.unshift 'lib'
 
-require 'ukulele'
+require 'oregano'
 require 'hexp-kramdown'
+require 'rubygems/package_task'
 
 load Oregano::ROOT.join('templates/simple_style_4/template.rb')
 
