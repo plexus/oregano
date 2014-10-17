@@ -4,7 +4,7 @@ require File.expand_path('../lib/ukulele/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name        = 'ukulele'
-  gem.version     = Ukulele::VERSION
+  gem.version     = Oregano::VERSION
   gem.authors     = [ 'Arne Brasseur' ]
   gem.email       = [ 'arne@arnebrasseur.net' ]
   gem.description = ''

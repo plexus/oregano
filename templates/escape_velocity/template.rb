@@ -1,4 +1,4 @@
-class EscapeVelocity < Ukulele::Template
+class EscapeVelocity < Oregano::Template
   LOCATION = Pathname(__FILE__).dirname
 
   def tangle(body, metadata)

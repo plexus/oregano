@@ -3,10 +3,10 @@ $:.unshift 'lib'
 require 'ukulele'
 require 'hexp-kramdown'
 
-load Ukulele::ROOT.join('templates/simple_style_4/template.rb')
+load Oregano::ROOT.join('templates/simple_style_4/template.rb')
 
-BUILD_DIR = Ukulele::ROOT.join('build')
-SITES_DIR = Ukulele::ROOT.join('sites')
+BUILD_DIR = Oregano::ROOT.join('build')
+SITES_DIR = Oregano::ROOT.join('sites')
 
 SITES = SITES_DIR.children.map(&:basename).map(&:to_s)
 

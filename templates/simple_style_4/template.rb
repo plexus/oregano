@@ -1,4 +1,4 @@
-class SimpleStyle4 < Ukulele::Template
+class SimpleStyle4 < Oregano::Template
   LOCATION = Pathname(__FILE__).dirname
 
   def tangle(body, metadata)

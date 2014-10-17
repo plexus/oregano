@@ -5,7 +5,7 @@ require 'hexp-kramdown'
 require 'yaml'
 require 'asset_packer'
 
-module Ukulele
+module Oregano
   ROOT = Pathname(__FILE__).dirname.parent
 
   class Template
