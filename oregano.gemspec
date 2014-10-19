@@ -7,8 +7,8 @@ Gem::Specification.new do |gem|
   gem.version     = Oregano::VERSION
   gem.authors     = [ 'Arne Brasseur' ]
   gem.email       = [ 'arne@arnebrasseur.net' ]
-  gem.description = ''
-  gem.summary     = gem.description
+  gem.description = 'Super Simple Project Sites'
+  gem.summary     = 'Pick a template, write some markdown ... Profit'
   gem.homepage    = 'https://github.com/plexus/oregano'
   gem.license     = 'GPL-3'
 
